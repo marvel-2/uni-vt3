@@ -1,5 +1,6 @@
 <template>
-    <up-button type="primary" text="确定"></up-button>
+   <view class="v-container">
+   </view>
 </template>
 
 <script setup lang="ts">
@@ -16,8 +17,16 @@
 //     console.log(res)
 // })
 
+
 </script>
 
 <style scoped lang="scss">
-
+.v-container {
+   width: 100%;
+   height: 100%;
+   padding: 10rpx;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 </style>
