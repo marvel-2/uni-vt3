@@ -1,0 +1,6 @@
+
+// 修复button、tag等宽度问题
+.u-button,
+.u-tag {
+  width: max-content !important;
+}
