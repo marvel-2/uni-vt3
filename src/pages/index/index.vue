@@ -3,6 +3,11 @@
 </template>
 
 <script setup lang="ts">
+import {onShow} from "@dcloudio/uni-app";
+
+onShow(async () => {
+
+})
 
 </script>
 
