@@ -1,6 +1,8 @@
 import {createSSRApp} from "vue";
 import App from "./App.vue";
 
+import "animate.css/animate.min.css";
+
 import uViewPlus from 'uview-plus';
 
 import * as Pinia from "pinia";
